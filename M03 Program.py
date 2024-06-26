@@ -30,7 +30,6 @@ class Automobile(Vehicle):
 vic = Vehicle(0)
 for loop in range (1):
     vic.setType()
-print(vic.setType)
 vic2 = Automobile(0,0,0,0,0,0)
 for loop in range(1):
     vic2.setYear
@@ -38,10 +37,9 @@ for loop in range(1):
     vic2.setModel
     vic2.setDoor
     vic2.setRoof
-    print("Vehicle type: ",vic2.setType,)
-    print("Year: ",vic2.setYear)
-    print("Make: ",vic2.setMake)
-    print("Model: ",vic2.setModel)
-    print("Number of doors: ",vic2.setDoor)
-    print("Type of roof: ",vic2.setRoof)
-    
+print("Vehicle type: ",vic2.type)
+print("Year: ",vic2.year)
+print("Make: ",vic2.make)
+print("Model: ",vic2.model)
+print("Number of doors: ",vic2.door)
+print("Type of roof: ",vic2.door)
